@@ -16,24 +16,34 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="" class="nav__link"></a>
+            <a href="" class="nav__link">Главная</a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link"></a>
+            <a href="" class="nav__link">Услуги</a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link"></a>
+            <a href="" class="nav__link">Отзывы</a>
           </li>
       </nav>
       <address class="contacts">
-        <a href="" class="contacts__phone"></a>
+        <a href="" class="contacts__phone">8 800 700 30 30</a>
         <p class="contacts__shedule"></p>
-        <div class="contacts__dropedown"></div>
+        <div class="contacts__dropedown">
+          <label for="touch"><span>График работы</span></label>
+          <input type="checkbox" id="touch">               
+          <ul class="contacts__dropedown">
+            <li><p></p>пн-вс: 09:00 - 20:0</p></li> 
+            <li><p></p>Обед: 14:00-14:30</p></li>
+          </ul>
+        </div>
       </address>
     </div>
   </header>
   <main class="main">
      <section class="hero">
+      <h1 class="hero__title title">Авторские туры по Азии</h1>
+      <p>Открой для себя Азию</p>
+      <img src="../img/bg1.png" alt="" class="hero__title-pic">
      </section>
      <section class="tours">
       <div class="container">
@@ -109,6 +119,7 @@
         </ul>
       </div>
      </section>
+     <!--Новости и акции-->
      <section class="news">
       <div class="container">
         <h3 class="news__title title">Новости и акции</h3>
@@ -130,16 +141,75 @@
               <p>21 октября</p>
             </div>
             <h4 class="new__item-title">Акция для серфенгистов!!</h4>
-            <p>В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
+            <p>В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
           </li>
         </ul>
         <div class="pagination">
-          
+          <h5 class="pagination__title">Страница 1 из 7</h5>
+          <a href="#">&laquo;</a>
+          <a class="active" href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">7</a>
+          <a href="#">&raquo;</a>
         </div>
      </section>
-     <section class="about"></section>
+     <!--О нас-->
+     <section class="about">
+      <div class="container">
+        <ul class="about__item">
+          <li class="about__list">
+            <h3 class="about__title title">О нас</h3>
+            <p>Друзья! Мы называем себя Бюро выгодных туров. А это значит, что с нами вы легко и за минимальную цену отправитесь в отпуск, проведете незабываемые дни на отдыхе и получите миллион новых впечатлений.. </p>
+            <div class="about__item-img">
+              <img src="../img/mountains.png" alt="" class="about__item-pic">
+            </div>
+          </li>
+          <li class="about__list">
+            <div class="about__item-img">
+              <img src="../img/gates.png" alt="" class="about__item-pic">
+          </li>
+        </ul>
+      </div>
+     </section>
     </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <div class="container">
+      <a class="logo" href="/">
+        <img src="../img/logo.png" alt="" class="logo__pic">
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">Услуги</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">Отзывы</a>
+          </li>
+      </nav>
+      <div class="container">
+        <a href="#" class="social-network__link">
+          <img src="../img/telegram.png" alt="" class="social-network__pic">
+        </a>
+        <a href="#" class="social-network__link">
+          <img src="../img/vk.png" alt="" class="social-network__pic">
+        </a>
+        <a href="#" class="social-network__link">
+          <img src="../img/f.png" alt="" class="social-network__pic">
+        </a>
+        <a href="#" class="social-network__link">
+          <img src="../img/in.png" alt="" class="social-network__pic">
+        </a>
+      </div>
+      <address class="contacts">
+        <a href="#" class="contacts__phone">8 800 700 30 30</a>
+  </footer>
 </div>
 </body>
 </html>
