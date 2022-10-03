@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5,h6 {
  }
 
  .tours__item {
-  min-height: 550px;
+  min-height: 350px;
   background: #fff;
   display: inline-block;
   border-radius: 4px;
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5,h6 {
  }
 
  .tours__header {
-  min-height: 144px;
+  min-height: 350px;
   margin-bottom: 50px;
  }
 
@@ -181,11 +181,13 @@ h1, h2, h3, h4, h5,h6 {
 
 .tours__details {
   display: inline-block;
-  vertical-align: top;
-  padding: 28px;
+  vertical-align: text-bottom;
   font-size: 16px;
   font-weight: 400;
   color: #666666;
-  text-align: center;
-
+}
+.country__desc-thai {
+  font-size: 14px;
+  font-weight: 400;
+  counter-reset: #303030;
 }
