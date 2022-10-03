@@ -189,11 +189,3 @@ h1, h2, h3, h4, h5,h6 {
   text-align: center;
 
 }
-
-.tours__details-thai-pic1::after {
- content: "10 ночей";
-}
-
-.tours__details-thai-pic2::after {
-  content: "Завтраки";
- }
