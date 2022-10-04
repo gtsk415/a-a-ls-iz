@@ -21,7 +21,7 @@ ul.li {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
 }
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5,h6 {
  }
 
  .tours__content {
-  padding: 20px 28px;
+  padding: 20px;
   display: block;
  }
 
