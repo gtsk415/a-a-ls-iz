@@ -145,7 +145,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 28px;
-  vertical-align: top;
  }
 
  .section {
@@ -179,9 +178,14 @@ h1, h2, h3, h4, h5, h6 {
  }
 
  .tours__header {
-  height: 126px;
+  height: 152px;
   width: 370px;
   display: block;
+ }
+
+ .tours__header-pic {
+  height: 152px;
+  width: 370px;
  }
 
  .tours__content {
