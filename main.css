@@ -138,13 +138,13 @@ h1, h2, h3, h4, h5, h6 {
 .btn__watch {
   background: #fff;
   border-radius: 35px;
-  border: 1px solid;
+  border: 1px solid #F5170E;
   padding: 16px 32px;
   color: #DA0100;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 28px;
+  margin: 323px 208px 10px 19px;
  }
 
  .section {
@@ -279,4 +279,69 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
+}
+
+.pager {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.pager__display, .pager__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__display {
+  margin-right: 26px;
+}
+
+.pager__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__item--active .pager__link {
+  background: #fff;
+  color:#F5170E ;
+}
+
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.about__item {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}  
+
+.about__item-behind {
+  width: 490px;
+  height: 505px;
+  border-radius: 4px;
+  position: absolute;
+  margin-top: -10px;
+
+}
+
+.about__item-front {
+  top: -150px;
+  float: right;
+  width: 785px;
+  height: 455px;
+  border-radius: 4px;
+  position: relative;
+  margin-top: 210px;
+  left: 350px;
+
+}
+
+.about__title, .about__desc-text {
+  
 }
