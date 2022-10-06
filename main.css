@@ -378,16 +378,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 94px;
 }
 
-.footer-container {
-  border-top: solid 1px #052129;
+.footer-container { 
 }
+
 .footer {
   height: 95px;
   position: relative;
+  border-top: solid 1px #052129;
+  padding: top;
 }
 
 .socials {
-  top: 50px;
+  top: 40px;
   right: 300px;
   position: absolute;
 }
