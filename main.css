@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  margin-bottom: 250px; 
+  margin-bottom: 262px; 
 }
 
 .hero__text-section {
@@ -174,14 +174,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 323px 208px 10px 19px;
  }
 
- .section {
-  margin-bottom: 70px;
- }
 
- .section__title {
+ .section__title-tours {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   display: inline-block;
   margin-right: 12px;
  }
@@ -268,9 +265,18 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: top;
 }
 
-.section__title {
-  margin-bottom: 57px;
+
+.news {
+ margin-bottom: 25px;
 }
+
+.section__title-news {
+margin-bottom: 50px;
+margin-top: 65px;
+font-size: 36px;
+font-weight: 700;
+}
+
 
 .news__item {
   width: 557px;
@@ -310,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pager {
   text-align: center;
-  margin-top: 39px;
+  margin-top: 55px;
 }
 
 .pager__display, .pager__list {
@@ -347,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  margin-top: 100px;
+  margin-top: 190px;
 }  
 
 .about__item-behind {
@@ -389,14 +395,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 94px;
 }
 
-.footer-container { 
-}
+
 
 .footer {
   height: 95px;
   position: relative;
   border-top: solid 1px #052129;
   padding: top;
+  margin-top: -55px;
 }
 
 .socials {
@@ -413,7 +419,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .socials__item :hover {
   filter: contrast(10%) ;
-  
 }
 
 .socials__item :last-child {
