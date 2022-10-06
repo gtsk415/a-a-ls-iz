@@ -163,6 +163,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 323px 208px 10px 19px;
  }
 
+ .btn__watch--active {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 16px 32px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 323px 208px 10px 19px;
+ }
+
  .section {
   margin-bottom: 70px;
  }
