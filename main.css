@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .background__image {
-  background-blend-mode: normal;
-
+  display: block;
+  position: absolute;
 }
 
 .background__image-top {
@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 120px;
   position: relative;
   margin-bottom: 81px;
+  z-index: 2;
 }
 
 .logo {
@@ -120,10 +121,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   margin-bottom: 262px;
+  z-index: 2;
 }
 
 .hero__content {
- 
+  position: relative;
 }
 
 .hero__text-section {
@@ -181,16 +183,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 323px 208px 10px 19px;
  }
 
+ .tours {
+  position: relative;
+ }
+
  .section__title-tours {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 50px;
   display: inline-block;
   margin-right: 12px;
+  position: relative;
  }
 
  .section__title-pic {
   display: inline;
+  position: relative;
  }
 
  .tours__item {
