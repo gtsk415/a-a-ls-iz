@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper.wrapper-main {
   background: url(./img/bg1.png) center top, url(./img/bg2.png) center bottom;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -39,29 +40,42 @@ h1, h2, h3, h4, h5, h6 {
   width: 1145px;
 }
 
+.container__hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
 .header {
-  height: 120px;
-  position: relative;
-  margin-bottom: 81px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col--align--right {
+  justify-content: flex-end;
 }
 
 .logo {
  display: block;
- position: absolute;
- top: 29px;
- left: 0px;
+ margin-right: 80px;
+
 }
 
 .menu {
-  position: absolute;
-  top: 37px;
-  left: 164px;
+  
 }
 
 .contacts {
-  position: absolute;
-  top: 27px;
-  right: 0px;
+
 }
 
 .contacts__desc {
@@ -117,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero__text-section {
-  width: 520px;
+  width: 45%;
 }
 
 .hero__title {
@@ -174,7 +188,8 @@ h1, h2, h3, h4, h5, h6 {
  }
 
  .tours {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
  }
 
  .section__title-tours {
@@ -194,11 +209,9 @@ h1, h2, h3, h4, h5, h6 {
  .tours__item {
   min-height: 550px;
   background: #fff;
-  display: inline-block;
   vertical-align: top;
   border-radius: 4px;
-  margin-right: 10px;
-  width: 370px;
+  width: calc(100% / 3 - 20px;)
  }
 
  .tours__item:last-child {
