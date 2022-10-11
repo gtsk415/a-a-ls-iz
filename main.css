@@ -189,6 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
  }
 
+
  .section__title-tours {
   font-size: 36px;
   font-weight: 700;
@@ -209,6 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   width: calc(100% / 3 - 18px);
   flex-wrap: wrap;
+  display: flex;
  }
 
  .tours__header {
@@ -245,7 +247,8 @@ h1, h2, h3, h4, h5, h6 {
  }
 
  .tours__content {
-  padding: 20px;
+  margin-bottom: 25px;
+  padding: 0px 20px 0px;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -306,8 +309,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .tours__btn--wrapper {
   display: flex;
-  justify-content: start;
   margin-top: auto;
+  padding: 0 0 20px 20px;
 }
 
 
