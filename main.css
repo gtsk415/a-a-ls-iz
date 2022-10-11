@@ -186,6 +186,7 @@ h1, h2, h3, h4, h5, h6 {
  .tours {
   display: flex;
   justify-content: space-between;
+
  }
 
  .section__title-tours {
@@ -209,8 +210,6 @@ h1, h2, h3, h4, h5, h6 {
   width: calc(100% / 3 - 18px);
   flex-wrap: wrap;
  }
-
-
 
  .tours__header {
   width: calc(100% / 3 - 18px);
@@ -248,6 +247,7 @@ h1, h2, h3, h4, h5, h6 {
  .tours__content {
   padding: 20px;
   display: flex;
+  flex: 1;
   flex-direction: column;
  }
 
@@ -276,8 +276,6 @@ h1, h2, h3, h4, h5, h6 {
 .tours__details:last-child {
   margin-right: 0;
 }
-
-
 
 .country__desc {
   font-size: 14px;
@@ -309,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
 .tours__btn--wrapper {
   display: flex;
   justify-content: start;
-  align-items: end;
+  margin-top: auto;
 }
 
 
