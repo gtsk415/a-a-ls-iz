@@ -186,7 +186,6 @@ h1, h2, h3, h4, h5, h6 {
  .tours {
   display: flex;
   justify-content: space-between;
-
  }
 
 
@@ -214,40 +213,13 @@ h1, h2, h3, h4, h5, h6 {
  }
 
  .tours__header {
-  width: calc(100% / 3 - 18px);
-  display: flex;
-  background-size: cover;
- }
-
- .tours__header--thai {
-  width: 100%;
   height: 150px;
-  background: url(./img/river.png);
+  width: 100%;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  background-size: cover;
- }
-
- .tours__header--bali {
-  width: 100%;
-  height: 150px;
-  background: url(./img/pool.png);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  background-size: cover;
- }
-
- .tours__header--indonesia {
-  width: 100%;
-  height: 150px;
-  background: url(./img/ocean.png);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  background-size: cover;
  }
 
  .tours__content {
-  margin-bottom: 25px;
   padding: 0px 20px 0px;
   display: flex;
   flex: 1;
@@ -258,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .tours__details--wrapper {
@@ -311,6 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   margin-top: auto;
   padding: 0 0 20px 20px;
+  
 }
 
 
