@@ -386,8 +386,10 @@ flex-direction: column;
 }
 
 .about__item {
-  display: flex;
-  margin-top: 190px;
+  max-height: 550px;
+  margin-top: 85px;
+  margin-bottom: 55px;
+
 }  
 
 .about__item-behind {
@@ -396,14 +398,14 @@ flex-direction: column;
   width: 490px;
   height: 505px;
   border-radius: 5px;
-  margin-top: -64px;
+  display: block;
 
 }
 
 .about__item-front {
   background: url(./img/mountains.png);
   background-size: cover;
-  width: 785px;
+  max-width: 785px;
   height: 455px;
   border-radius: 5px;
   left: 350px;
@@ -428,7 +430,7 @@ flex-direction: column;
 
 .about__btn--wrapper {
   margin-top: auto;
-  padding: 0 0 80px 20px;
+
 }
 
 
