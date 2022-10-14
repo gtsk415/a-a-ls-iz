@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
  display: block;
  margin-right: 80px;
-
 }
 
 
@@ -386,10 +385,9 @@ flex-direction: column;
 }
 
 .about__item {
-  max-height: 550px;
+  position: relative;
   margin-top: 85px;
   margin-bottom: 55px;
-
 }  
 
 .about__item-behind {
@@ -405,11 +403,14 @@ flex-direction: column;
 .about__item-front {
   background: url(./img/mountains.png);
   background-size: cover;
-  max-width: 785px;
+  min-width: 785px;
   height: 455px;
   border-radius: 5px;
-  left: 350px;
+  left: 32%;
   display: flex;
+  position: absolute;
+  top: 20%;
+  flex-direction: column;
 }
 
 .about__content {
@@ -417,7 +418,7 @@ flex-direction: column;
   display: flex;
   color: #000;
   max-width: 500px;
-  padding: 70px 0 80px 120px;
+  padding: 70px 0 120px 80px;
 }
 
 .about__title {
@@ -425,33 +426,41 @@ flex-direction: column;
   font-weight: 700;
 }
 
-.about__desc {
-}
-
 .about__btn--wrapper {
   margin-top: auto;
-
 }
 
 
 .footer {
   height: 95px;
-  position: relative;
   border-top: solid 1px #052129;
   padding: top;
-  margin-top: -55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
 }
 
 .socials {
-  top: 37px;
-  right: 300px;
-  position: absolute;
+margin-right: 75px;
+align-items: start;
+
 }
 
 .socials__item {
-  display: inline-block;
-  vertical-align: middle;
   margin-right: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socials__item :hover {
@@ -462,10 +471,3 @@ flex-direction: column;
   margin-right: 0;
 }
 
-.socials__link {
-  display: block;
-  text-decoration: none;
-  width: 36px;
-  height: 36px;
-
-}
