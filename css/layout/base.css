@@ -1,6 +1,7 @@
 body {
   color: #fff;
   font-size: 16px;
+  font-family: Open Sans, sans-serif;
   line-height: 1.42;
   background:#001821;
   -webkit-font-smoothing: antialiased;
@@ -8,7 +9,7 @@ body {
   margin: 0;
  }
 
- .wrapper.wrapper-main {
+.wrapper-main {
   background: url(./img/bg1.png) center top, url(./img/bg2.png) center bottom;
   background-repeat: no-repeat;
 }
