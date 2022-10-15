@@ -1,0 +1,40 @@
+.pager {
+  display: flex;
+  margin-top: 55px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pager__display, .pager__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__display {
+  margin-right: 26px;
+}
+
+.pager__list {
+  display: flex;
+  align-items: center;
+}
+
+.pager__item {
+  text-align: center;
+}
+
+.pager__item--active {
+  background: #fff;
+  color:#F5170E ;
+  border-radius: 50%;
+}
+
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 32px;
+}

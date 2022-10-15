@@ -1,0 +1,17 @@
+.footer {
+  height: 95px;
+  border-top: solid 1px #052129;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
+}
