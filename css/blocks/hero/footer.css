@@ -13,5 +13,6 @@
 }
 
 .footer__col--align--right {
+  display: flex;
   justify-content: flex-end;
 }

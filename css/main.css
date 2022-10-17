@@ -1,7 +1,10 @@
+@import url(./layout/font.css);
 @import url(./layout/normalize.css);
 @import url(./layout/base.css);
 
+/*HERO PAGE*/
 
+@import url(./blocks/hero/bg.css);
 @import url(./blocks/hero/header.css);
 @import url(./blocks/hero/logo.css);
 @import url(./blocks/hero/contacts.css);
@@ -11,3 +14,4 @@
 @import url(./blocks/hero/socials.css);
 @import url(./blocks/hero/tours.css);
 @import url(./blocks/hero/about.css);
+@import url(./blocks/hero/footer.css);

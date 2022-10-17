@@ -309,12 +309,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  height: 95px;
-  border-top: solid 1px #052129;
+  height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  background: #001821;
 }
 
 .footer__col {
@@ -331,39 +331,39 @@ h1, h2, h3, h4, h5, h6 {
   align-items: start;
   }
   
-  .socials__item {
-    margin-right: 10px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+.socials__item {
+  margin-right: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   }
   
-  .socials__item :hover {
-    filter: contrast(10%) ;
+.socials__item :hover {
+  filter: contrast(10%) ;
   }
   
-  .socials__item :last-child {
-    margin-right: 0;
+.socials__item :last-child {
+  margin-right: 0;
   }
   
-  .contacts__desc {
-    font-size: 11px;
-    color: #9A9A9A;
+.contacts__desc {
+  font-size: 11px;
+  color: #9A9A9A;
   }
   
-  .contacts {
-    font-style: normal;
-    text-align: right;
+.contacts {
+  font-style: normal;
+  text-align: right;
   }
   
-  .contacts__phone {
-    text-decoration: none;
-    font-size: 24px;
-    margin-bottom: 4px;
+.contacts__phone {
+  text-decoration: none;
+  font-size: 24px;
+  margin-bottom: 4px;
   }
   
-  .contacts__dropdown-title {
-    font-size: 13px;
-    text-decoration: underline;
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
   }
   
