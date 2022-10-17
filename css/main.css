@@ -2,7 +2,12 @@
 @import url(./layout/base.css);
 
 
-@import url(./blocks/header.css);
-@import url(./blocks/logo.css);
-@import url(./blocks/contacts.css);
-@import url(./blocks/menu.css);
+@import url(./blocks/hero/header.css);
+@import url(./blocks/hero/logo.css);
+@import url(./blocks/hero/contacts.css);
+@import url(./blocks/hero/menu.css);
+@import url(./blocks/hero/news.css);
+@import url(./blocks/hero/pager.css);
+@import url(./blocks/hero/socials.css);
+@import url(./blocks/hero/tours.css);
+@import url(./blocks/hero/about.css);
