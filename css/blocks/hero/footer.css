@@ -16,3 +16,7 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.footer__hero {
+  margin-top: 55px;
+}

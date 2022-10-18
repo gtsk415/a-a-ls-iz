@@ -1,11 +1,11 @@
 .about__item {
   position: relative;
-  margin-top: 85px;
-  margin-bottom: 100px;
+  margin-top: 101px;
+  margin-bottom: 126px;
 }  
 
 .about__item-behind {
-  background: url(./img/gates.png);
+  background: url(/img/content/gates.png);
   background-size: cover;
   width: 490px;
   height: 505px;
@@ -14,24 +14,28 @@
 }
 
 .about__item-front {
-  background: url(./img/mountains.png);
+  background: url(/img/content/mountains.png);
   background-size: cover;
-  min-width: 785px;
-  height: 455px;
+  min-width: 773px;
+  height: 452px;
   border-radius: 5px;
   left: 32%;
   display: flex;
   position: absolute;
   top: 20%;
-  padding-bottom: 20px;
-  padding-left: 80px;
-  padding-top: 70px;
+  padding-bottom: 14px;
+  padding-left: 68px;
+  padding-top: 66px;
   flex-direction: column;
 }
 
 .about__content {
   color: #000;
   max-width: 500px;
+}
+
+.about__desc {
+  line-height: 27px;
 }
 
 .about__title {

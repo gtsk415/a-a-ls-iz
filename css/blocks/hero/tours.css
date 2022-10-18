@@ -94,7 +94,7 @@
   margin-right: 7px;
 }
 
-.tours__detais-meal {
+.tours__details-meal {
   display: inline;
   vertical-align: top;
 }
@@ -104,18 +104,16 @@
   padding: 20px 0 20px 20px;
 }
 
-.btn__watch {
+.btn-white {
   background: #fff;
-  border-radius: 35px;
-  border: 1px solid #F5170E;
-  padding: 16px 32px;
   color: #DA0100;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
- }
+  border: 1px solid #F5170E;
+}
 
- .btn__watch--active {
+.btn-white--active {
   background: #F5170E;
   border-radius: 35px;
   padding: 16px 32px;
@@ -123,4 +121,4 @@
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
- }
+}

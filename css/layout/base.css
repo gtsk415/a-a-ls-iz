@@ -7,14 +7,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
- }
-
-.wrapper-main {
-  background: url(./img/bg1.png) center top, url(./img/bg2.png) center bottom;
-  background-repeat: no-repeat;
 }
 
- .container {
+.container {
   margin: 0 auto;
   width: 1145px;
 }
@@ -23,8 +18,7 @@ body {
   box-sizing: border-box;
 }
 
-
- a {
+a {
   color:inherit;
 }
 
