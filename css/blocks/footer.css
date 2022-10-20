@@ -20,6 +20,14 @@
   position: relative;
 }
 
+.footer__reviews {
+  min-height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 .footer__col {
   display: flex;
   align-items: center;

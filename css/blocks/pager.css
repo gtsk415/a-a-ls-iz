@@ -1,8 +1,17 @@
 .pager {
   display: flex;
-  margin-top: 55px;
   justify-content: center;
   align-items: center;
+}
+
+.pager__services {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.pager__reviews {
+  margin-top: 70px;
+  margin-bottom: 85px;
 }
 
 .pager__display, .pager__list {
@@ -41,8 +50,7 @@
 
 .pager--theme-light {
   color: #000;
-  margin-top: 30px;
-  margin-bottom: 40px;
+
 }
 
 .pager--theme-light .pager__item--active {
@@ -50,3 +58,4 @@
   color:#ffffff ;
   border-radius: 50%;
 }
+
