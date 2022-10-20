@@ -1,6 +1,6 @@
 .line {
   min-height: 360px;
-  background: url(/img/decor/Rectangle.png) center no-repeat;
+  background: url(./img/decor/Rectangle.png) center no-repeat;
 }
 
 .line__container {

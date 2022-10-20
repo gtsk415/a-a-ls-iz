@@ -5,7 +5,7 @@
 }  
 
 .about__item-behind {
-  background: url(/img/content/gates.png);
+  background: url(./img/content/gates.png);
   background-size: cover;
   width: 490px;
   height: 505px;
@@ -14,7 +14,7 @@
 }
 
 .about__item-front {
-  background: url(/img/content/mountains.png);
+  background: url(./img/content/mountains.png);
   background-size: cover;
   min-width: 773px;
   height: 452px;
