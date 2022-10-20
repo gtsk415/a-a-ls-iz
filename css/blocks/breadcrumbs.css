@@ -1,0 +1,30 @@
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+/* неразрывные пробелы тоже подчеркиваются как ссылка */
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;  
+}
+
+.breadcrumbs__link .breadcrumbs__item--active {
+  color: #9A9A9A;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.breadcrumbs__item--active {
+  font-style: normal;
+  font-weight: 700;
+}

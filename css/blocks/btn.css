@@ -1,0 +1,26 @@
+.btn {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 16px 38px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 170px;
+}
+
+.btn--white {
+  background: #ffffff;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
+
+.btn--white--active {
+  background: #F5170E;
+  color: #fff;
+}
+
+.btn--dark {
+  background: #2B2B2B;
+  color: #fff;
+}

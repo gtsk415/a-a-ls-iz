@@ -2,6 +2,7 @@
   min-height: 410px;
   flex-direction: column;
   background: url(/img/decor/headline\ 1.png) center no-repeat;
+  margin-bottom: 105px;
 }
 
 .container__top-line {

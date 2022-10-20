@@ -1,6 +1,19 @@
-.footer {
+.footer-container--bg--dark {
+  background: #001821;
+}
+
+.footer__hero {
   height: 95px;
   border-top: solid 1px #052129;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 55px;
+}
+
+.footer__services {
+  min-height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +30,3 @@
   justify-content: flex-end;
 }
 
-.footer__hero {
-  margin-top: 55px;
-}

@@ -1,0 +1,22 @@
+.reviews__header--name {
+  text-align: center;
+}
+
+.reviews__header {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.reviews__name {
+  font-style: 24px;
+  font-weight: bold;
+  color: #1A1B1E;
+  margin-right: 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+.reviews__name--active {
+  color: #2E77A4;
+  text-decoration: underline;
+}

@@ -38,3 +38,15 @@
   font-weight: 700;
   line-height: 32px;
 }
+
+.pager--theme-light {
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.pager--theme-light .pager__item--active {
+  background: #F5170E;
+  color:#ffffff ;
+  border-radius: 50%;
+}
