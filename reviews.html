@@ -52,32 +52,25 @@
         <ul class="reviews">
           <li class="reviews__item reviews__item--bg--gray">
             <div class="reviews__header">
-              <div class="reviews__avatar">
-                <img src="./img/content/people (1).png" alt="">
+              <div class="reviews__photo">
+                <div class="avatar avatar__reviews">
+                  <img src="./img/content/people (1).png" alt="user" class="avatar__img">
+                </div>
               </div>
-              <div class="reviewes__wrapper">
-                <div class="reviews__header--name">
-                  <h4 class="reviews__name reviews__name--active"><a href="#"></a>Иван Петрович</h4>
-                  <div class="reviews__social-pic reviews__social-pic--vk">
-                    <img src="./img/icons/vk-blue 1.png" alt="">
-                  </div>
-                </div>
-                <div class="reviews__place">
-                  <a href="" class="btn btn--reviews__place">Водопад Янг-бей</a>
-                </div>
+              <div class="reviewes__userdata">
+                <a href="" class="reviews__user">Иван Петрович</a>
+                <div class="review__tag tag tag--bg--green">Тур по Индонезии</div>
               </div>
             </div>
             <div class="reviews__content">
-              <h2 class="reviews__title">
+              <h3 class="reviews__title">
                 Крутой поход на водопады.
-              </h2>
-              <div class="reviews__desc">
+              </h3>
+              <div class="reviews__content-text">
                 <p>Ездили на экскурсию на водопад янг бэй!!В целом,всё понравилось,и парк и водопад и крокодиловая ферма,по насыщенности,хорошая экскурсия,однозначно рекомендую!!От экскурсии полный позитив!!
                 </p>
               </div>
-              <time class="reviews__date">
-                Январь 2022
-              </time>
+              <time class="reviews__date">Январь 2022</time>
             </div>
           </li>
         </ul>
@@ -95,16 +88,78 @@
         </div>
       </div>
     </section>
-    <section class="line">
-      <div class="container line__container">
-        <div class="line__title">
-          Подберем тур по вашим пожеланиям
+    <section class="seporator">
+      <div class="container">
+        <div class="seporator__content">
+          <h2 class="separation__title">
+            Подберем тур по&nbsp;вашим пожеланиям
+          </h2>
         </div>
-        <div class="line__pic"></div>
       </div>
     </section>
-    <section class="section">
+    <section class="inner-section inner-section--bg--gray">
       <div class="container">
+        <h2 class="inner-section__title">Оставьте отзыв</h2>
+        <form class="form">
+          <div class="form__row">
+            <input type="text" class="form__input" name="name" placeholder="Игорь Петрович">
+            <input type="text" class="form__input" name="socials" placeholder="Ссылка на профиль VK">
+          </div>
+          <div class="form__row">
+            <textarea class="form__input form__input--textarea" name="massage" placeholder="Напишите свой честный отзыв ;)"></textarea>
+          </div>
+          <div class="form__row">
+            <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
+            <ul class="form__controls-list controls">
+              <li class="controls-item">
+                <label class="control__elem">
+                  <input type="radio" name="services" class="control__checkbox">
+                  <span class="control_tag">Остров обезьян</span>
+                </label>
+              </li>
+              <li class="controls-item">
+                <label class="control__elem">
+                  <input type="radio" name="services" class="control__checkbox">
+                  <span class="control_tag">Тур по Тайланду</span>
+                </label>
+              </li>
+              <li class="controls-item">
+                <label class="control__elem">
+                  <input type="radio" name="services" class="control__checkbox">
+                  <span class="control_tag">Водопад Янг-бей</span>
+                </label>
+              </li>
+              <li class="controls-item">
+                <label class="control__elem">
+                  <input type="radio" name="services" class="control__checkbox">
+                  <span class="control_tag">Тур по Индонезии</span>
+                </label>
+              </li>
+              <li class="controls-item">
+                <label class="control__elem">
+                  <input type="radio" name="services" class="control__checkbox">
+                  <span class="control_tag">Никакими</span>
+                </label>
+              </li>
+              <li class="controls-item">
+                <label class="control__elem">
+                  <input type="radio" name="services" class="control__checkbox">
+                  <span class="control_tag">Тур по Бали</span>
+                </label>
+              </li>
+              <li class="controls-item">
+                <label class="control__elem">
+                  <input type="radio" name="services" class="control__checkbox">
+                  <span class="control_tag">Другое</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="form__row">
+            <button type="reset" class="btn">Очистить</button>
+            <button type="submit" class="btn">Отправить</button>
+          </div>
+        </form>
         
       </div>
     </section>

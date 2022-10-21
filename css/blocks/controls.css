@@ -1,0 +1,8 @@
+.control {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.control__checkbox {
+  
+}
