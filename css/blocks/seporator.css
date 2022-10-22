@@ -1,0 +1,18 @@
+.seporator {
+  background: url(/img/decor/Rectangle.png) center no-repeat;
+  min-height: 360px;
+}
+
+.seporator__content {
+  display: inline-block;
+}
+
+.separation__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.separation__title::after {
+  content: url(/img/decor/couple.png);
+  display: inline-block;
+}
