@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.pager__hero {
+  margin-top: 53px;
+  margin-bottom: 105px;
+}
+
 .pager__services {
   margin-top: 30px;
   margin-bottom: 40px;
