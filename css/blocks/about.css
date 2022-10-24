@@ -14,7 +14,7 @@
 }
 
 .about__item-front {
-  background: url(../img/content/mountains.png);
+  background: url(../../img/content/mountains.png);
   background-size: cover;
   min-width: 773px;
   height: 452px;
