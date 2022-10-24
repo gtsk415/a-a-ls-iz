@@ -10,9 +10,11 @@
 .separation__title {
   font-size: 48px;
   font-weight: bold;
+  position: absolute;
+  min-width: 595px;
 }
 
 .separation__title::after {
   content: url(/img/decor/couple.png);
-  display: inline-block;
+  position: absolute;
 }

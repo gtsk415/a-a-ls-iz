@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.header__services, .header__reviews {
+  margin-bottom: 0;
+}
+
+
 .header__col {
   display: flex;
   align-items: center;

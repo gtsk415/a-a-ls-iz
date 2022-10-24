@@ -1,11 +1,11 @@
 .reviews {
   display: flex;
   flex-wrap: wrap;
+  justify-content:space-between;
 }
 
 .reviews__item {
-  width: calc(95% / 2);
-  margin-right: 28px;
+  width: calc(97% / 2);
   margin-bottom: 17px;
   display: flex;
   flex-direction: column;
@@ -14,9 +14,6 @@
   border-radius: 5px;
 }
 
-.reviews__item:nth-child(even) {
-  margin-right: 0;
-}
 
 .reviews__item--bg--gray {
   background-color: #F4F5F5;
