@@ -3,6 +3,14 @@
   flex-wrap: wrap;
 }
 
+.control__elem {
+  position: relative;
+}
 .control__checkbox {
-  
+ appearance: none;
+ position: absolute; 
+}
+
+.control__tag {
+  border: 2px solid transparent;
 }
