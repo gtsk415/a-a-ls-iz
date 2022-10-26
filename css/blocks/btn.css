@@ -1,4 +1,6 @@
+
 .btn {
+  cursor: pointer;
   background: #F5170E;
   border-radius: 35px;
   padding: 16px 38px;
@@ -7,6 +9,7 @@
   text-transform: uppercase;
   text-decoration: none;
   width: 170px;
+  border: none
 }
 
 .btn--white {

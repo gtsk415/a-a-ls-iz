@@ -1,3 +1,23 @@
 .inner-section--bg--gray {
   background: #F4F5F5;
 }
+
+.inner-section--partners{
+  max-height: 535px;
+  padding: 90px 0 120px;
+}
+
+
+.inner-section--reviews {
+  min-height: 800px;
+  padding: 62px 0 96px;
+
+}
+
+.inner-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1A1B1E;
+  margin-bottom: 80px;
+}
+

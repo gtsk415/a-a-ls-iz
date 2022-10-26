@@ -1,0 +1,28 @@
+.control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.control__elem {
+  position: relative;
+}
+
+.control__tag {
+  border: 2px solid transparent;
+  padding: 10px 15px;
+}
+
+.control__checkbox {
+ appearance: none;
+ position: absolute; 
+}
+
+.control__checkbox:checked + .control__tag {
+ background-color: #B9EAE4;
+}
+
+.control__checkbox:focus + .control__tag {
+  border-color: rgb(57, 57, 57);
+}
+

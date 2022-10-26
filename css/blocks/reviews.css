@@ -14,13 +14,10 @@
   border-radius: 5px;
 }
 
-
 .reviews__item--bg--gray {
   background-color: #F4F5F5;
 }
-
-
-  
+ 
 .reviews__header {
   display: flex;
   margin-bottom: 30px;
@@ -54,6 +51,7 @@
 
 .review__tag {
   margin-top: 10px;
+  padding: 10px 20px;
 }
 
 .reviews__title {

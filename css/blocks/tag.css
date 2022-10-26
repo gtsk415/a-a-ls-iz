@@ -1,8 +1,7 @@
 .tag {
-  width: fit-content;
+  display: inline-block;
   font-size: 13px;
   color: #303030;
-  padding: 8px 16px;
   border-radius: 50px;
   background-color: #E7E7E7;
 }

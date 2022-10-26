@@ -1,17 +1,4 @@
 
-.inner-section--bg--gray {
-  background: #F4F5F5;
-  max-height: 535px;
-  padding: 90px 0 120px;
-}
-
-.inner-section__title {
-  font-size: 48px;
-  font-weight: bold;
-  color: #1A1B1E;
-  margin-bottom: 80px;
-}
-
 .partners__list {
   display: flex;
   flex-wrap: wrap;

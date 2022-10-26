@@ -168,9 +168,9 @@
         </div>
       </div>
     </section>
-    <section class="inner-section inner-section--bg--gray">
+    <section class="inner-section inner-section--reviews  inner-section--bg--gray">
       <div class="container">
-        <h2 class="inner-section__title">Оставьте отзыв</h2>
+        <h2 class="inner-section__title inner-section--reviews--title">Оставьте отзыв</h2>
         <form class="form">
           <div class="form__row">
             <input type="text" class="form__input" name="name" placeholder="Игорь Петрович">
@@ -179,56 +179,57 @@
           <div class="form__row">
             <textarea class="form__input form__input--textarea" name="massage" placeholder="Напишите свой честный отзыв ;)"></textarea>
           </div>
-          <div class="form__row">
-            <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
-            <ul class="form__controls-list controls">
-              <li class="controls-item">
+          <div class="form__row form__row--controls">
+            <div class="form__control-title">Какими услугами компании пользуетесь?</div>
+            <ul class="form__control-list control">
+              <li class="control-item">
                 <label class="control__elem tag">
                   <input type="radio" name="services" class="control__checkbox">
-                  <span class="control_tag">Остров обезьян</span>
+                  <span class="control__tag tag ">Остров обезьян</span>
                 </label>
               </li>
-              <li class="controls-item">
+              <li class="control__item">
                 <label class="control__elem tag">
                   <input type="radio" name="services" class="control__checkbox">
-                  <span class="control_tag">Тур по Тайланду</span>
+                  <span class="control__tag tag">Тур по Тайланду</span>
                 </label>
               </li>
-              <li class="controls-item">
+              <li class="control__item">
                 <label class="control__elem tag">
                   <input type="radio" name="services" class="control__checkbox">
-                  <span class="control_tag">Водопад Янг-бей</span>
+                  <span class="control__tag tag">Водопад Янг-бей</span>
                 </label>
               </li>
-              <li class="controls-item">
+              <li class="control__item">
                 <label class="control__elem tag">
                   <input type="radio" name="services" class="control__checkbox">
-                  <span class="control_tag">Тур по Индонезии</span>
+                  <span class="control__tag tag">Тур по Индонезии</span>
                 </label>
               </li>
-              <li class="controls-item">
-                <label class="control__elem tag">
+              <li class="control__item">
+                <label  class="control__elem tag">
                   <input type="radio" name="services" class="control__checkbox">
-                  <span class="control_tag">Никакими</span>
+                  <span class="control__tag tag">Никакими</span>
                 </label>
               </li>
-              <li class="controls-item">
+              </li>
+              <li class="control__item">
                 <label class="control__elem tag">
                   <input type="radio" name="services" class="control__checkbox">
-                  <span class="control_tag">Тур по Бали</span>
+                  <span class="control__tag tag">Тур по Бали</span>
                 </label>
               </li>
-              <li class="controls-item">
+              <li class="control__item">
                 <label class="control__elem tag">
                   <input type="radio" name="services" class="control__checkbox">
-                  <span class="control_tag">Другое</span>
+                  <span class="control__tag tag">Другое</span>
                 </label>
               </li>
             </ul>
           </div>
-          <div class="form__row">
-            <button type="reset" class="btn">Очистить</button>
-            <button type="submit" class="btn">Отправить</button>
+          <div class="form__row form__row--buttons">
+            <button type="reset" class="btn btn--dark">Очистить</button>
+            <button type="submit" class="btn ">Отправить</button>
           </div>
         </form>
         
@@ -243,9 +244,9 @@
             </a>
             <nav class="menu">
               <ul class="menu__list">
-                <li class="menu__item"> <a href="#" class="menu__link">Главная</li>
-                <li class="menu__item"> <a href="./services.html" class="menu__link">Услуги</a></li>
-                <li class="menu__item"> <a href="" class="menu__link">Отзывы</a></li>
+                <li class="menu__item"> <a href="#" class="menu__link">Главная</a></li>
+                <li class="menu__item"> <a href="#" class="menu__link">Услуги</a></li>
+                <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a></li>
               </ul>
             </nav>
           </div>
