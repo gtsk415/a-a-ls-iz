@@ -1,5 +1,5 @@
 .seporator {
-  background: url(/img/decor/Rectangle.png) center no-repeat;
+  background: url(../../img/decor/Rectangle.png) center no-repeat;
 }
 
 .seporator__content {
@@ -9,7 +9,7 @@
 }
 
 .seporator__content::after {
-  content: url(/img/decor/couple.png);
+  content: url(../../img/decor/couple.png);
   margin-top: auto;
 }
 
