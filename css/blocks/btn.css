@@ -33,6 +33,13 @@
   padding: 18px 30px;
 }
 
+.btn__reviews {
+  width: 168px;
+  height: 55px;
+  padding: 18px 30px;
+}
+
+
 
 .btn--theme--red {
   background: #F5170E;
