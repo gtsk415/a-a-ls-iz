@@ -3,13 +3,13 @@
 }
 
 .footer__hero {
-  height: 90px;
+  height: 140px;
   border-top: solid 1px #052129;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-top: 55px;
+  margin-top: 103px;
 }
 
 .footer__services {
