@@ -2,14 +2,29 @@
 .btn {
   cursor: pointer;
   border-radius: 35px;
-  padding: 18px 30px;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  border: none
+}
+
+.btn__hero {
   width: 135px;
   height: 55px;
-  border: none
+  padding: 18px 40px;
+}
+
+.btn__tours {
+  width: 168px;
+  height: 55px;
+  padding: 18px 30px;
+}
+
+.btn__about {
+  width: 135px;
+  height: 55px;
+  padding: 18px 40px;
 }
 
 .btn--theme--red {
