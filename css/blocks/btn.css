@@ -27,6 +27,13 @@
   padding: 18px 40px;
 }
 
+.btn__services {
+  width: 168px;
+  height: 55px;
+  padding: 18px 30px;
+}
+
+
 .btn--theme--red {
   background: #F5170E;
   color: #fff;
