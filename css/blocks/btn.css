@@ -1,10 +1,8 @@
 
 .btn {
   cursor: pointer;
-  background: #F5170E;
   border-radius: 35px;
   padding: 16px 38px;
-  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -12,18 +10,27 @@
   border: none
 }
 
-.btn--white {
+.btn--theme--red {
+  background: #F5170E;
+  color: #fff;
+}
+
+.btn--theme--white {
   background: #ffffff;
   color: #F5170E;
   border: 1px solid #F5170E;
 }
 
-.btn--white--active {
+.btn--theme--white--active {
   background: #F5170E;
   color: #fff;
 }
 
-.btn--dark {
-  background: #2B2B2B;
+.btn--theme--gray {
+  background: #8E8E8E;
   color: #fff;
+}
+
+.btn--theme--gray:hover {
+  background: #2B2B2B;
 }

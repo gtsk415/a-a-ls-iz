@@ -23,6 +23,6 @@
 }
 
 .control__checkbox:focus + .control__tag {
-  border-color: rgb(57, 57, 57);
+  border-color: #8E8E8E;
 }
 
