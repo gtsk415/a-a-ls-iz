@@ -11,7 +11,7 @@
 .inner-section--reviews {
   min-height: 800px;
   padding: 62px 0 96px;
-
+  margin-top: -6px;
 }
 
 .inner-section__title {
